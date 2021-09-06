@@ -1,4 +1,4 @@
-# keras-brain-tumor-scan
+# Ark-invest-CSV-merger
 
  [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
@@ -61,3 +61,4 @@ explain file tree  and a diagram with the program process
 click here to install
 click here to downloas source
 
+talk about ark invest
