@@ -1,7 +1,6 @@
 # keras-brain-tumor-scan
 
-[![MIT Licence](https://badges.frapsoft.com/os/mit/mit.png?v=103)](https://opensource.org/licenses/mit-license.php)
-
+ [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 ![brain scan image](https://images.pexels.com/photos/4226264/pexels-photo-4226264.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260)
 
@@ -45,4 +44,16 @@ Started on 27/08/2021
 
 Ended 07/09/2021
 
+to add:
+
+i planed to use kivy, but I was bored and the program was going to be transmitted through a pen drive
+it might be bad because I did it in a way to be as simple as possible and because I was 18. still I made tests with the unitesting modules.
+
+
+section:
+modules used
+create a licence for my program
+explain file tree  and a diagram with the program process
+click here to install
+click here to downloas source
 
