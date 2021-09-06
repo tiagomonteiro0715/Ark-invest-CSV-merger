@@ -1,46 +1,48 @@
-1. eliminar ultimas 4 linhas de ficheiros csv
+# keras-brain-tumor-scan
 
-2. eliminar certas colunas - quais???
-  fund, date(tirar esta para o nome), ticker, cusip, weight
-  
+[![MIT Licence](https://badges.frapsoft.com/os/mit/mit.png?v=103)](https://opensource.org/licenses/mit-license.php)
 
 
-3. juntar csv files:
-se x coluna se junatar : somar valores
-
-4. ordenar x primeiros e eliminar o resto, criando assim um novo ficheiro csv - com a data de onde foi tirado
-
-5. percentagem de ações de x companhia de acordo com o numero total de acoes na versão final da folha csv
-
-999. fazer unit testing para isto
+![brain scan image](https://images.pexels.com/photos/4226264/pexels-photo-4226264.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260)
 
 
-...................
-documentar isto bem 
+-----
+The motivation behind this project was to gain a better understanding of tensorflow 2.4 and to serve as an example for future projects of the same type. 
 
-0. fazer este projeto com classes e outros para qualquer folha csv. 
-dizer que foi inspirado deste. fazer projeto de inteligencia artificial nisto.
+Essencially, it takes a dataset of images builds a model that classifies brain images with and without cancer. I used tensorflow because it was, in my point of view, the best machine lerning framework for programming enthusiasts in this subfield.
 
-links:
-https://stackoverflow.com/questions/2632205/how-to-count-the-number-of-files-in-a-directory-using-python#2632251
-
-https://stackoverflow.com/questions/6142689/initialising-an-array-of-fixed-size-in-python#6142706
-
----------------------------------------
-to do:
-
-tkinder - create loading button
-https://duckduckgo.com/?q=library+of+widget+tkinter&t=newext&atb=v264-1&ia=web
+Not only I lerned alot about this framework, but also learned in a pratical way machine lerning. This projects standout by the code being writeen in a way that is easy to understand. And also creates a model that is easy and intuitive  to use. 
 
 
-look for good place to store the windows program
-create many files for different programming functions
+Install dependencies:
 
-https://www.geeksforgeeks.org/create-a-directory-in-python/ - plan out directories my program will have and where it will use them
+```
+pip install --upgrade --user pip
 
-https://geo-python.github.io/site/notebooks/L1/gcp-1-variable-naming.html
-important links:
+pip install --upgrade virtualenv
+```
 
-https://wiki.python.org/moin/TkInter
+Create and activate the virtual enviroment.The python version already needs to be installed in your pc
 
-https://www.geeksforgeeks.org/how-to-merge-multiple-csv-files-into-a-single-pandas-dataframe/
+Activate it:
+
+```
+cd envname/Scripts
+
+activate
+```
+
+Install necessary modules and activate it
+
+```
+pip install tensorflow==2.4.1 matplotlib==3.3 keras==2.4 ipykernel
+
+```
+
+-----
+
+Started on 27/08/2021
+
+Ended 07/09/2021
+
+
