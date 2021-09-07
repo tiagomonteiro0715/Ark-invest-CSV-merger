@@ -88,6 +88,9 @@ click here to install the actual program
 click here to downloas source
 
 write short blocks of text
+make video showing the program for the zero. from the instalattion to the file creation and folder removal
 
 talk about ark invest
 criar indice com tudo e descrição muito breve.
+
+a very briefe description of my licence and show site with other licenes easily explained
