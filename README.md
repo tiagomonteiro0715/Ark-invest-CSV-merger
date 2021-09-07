@@ -61,7 +61,6 @@ Install necessary modules and activate it
 
 ```
 pip install numpy pandas
-
 ```
 
 -----
@@ -80,6 +79,8 @@ it might be bad because I did it in a way to be as simple as possible and becaus
 I declared files that choode not had been repeated
 if you can help me get a better one, send me a message in github :)
 https://www.wordtune.com/
+
+create diagram with files path and what each file does. talking about the boring unittests. get where one to prove i actually used it. say I only started using at the end. A big mistake. each file - create a block
 
 change name of program
 section:
