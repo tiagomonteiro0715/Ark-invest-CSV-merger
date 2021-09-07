@@ -2,16 +2,39 @@
 
  [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
-![brain scan image](https://images.pexels.com/photos/4226264/pexels-photo-4226264.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260)
+![finances image](https://github.com/tiagomonteiro0715/Ark-invest-CSV-merger/blob/main/docs-image.png)
 
 
 -----
-The motivation behind this project was to gain a better understanding of tensorflow 2.4 and to serve as an example for future projects of the same type. 
 
-Essencially, it takes a dataset of images builds a model that classifies brain images with and without cancer. I used tensorflow because it was, in my point of view, the best machine lerning framework for programming enthusiasts in this subfield.
+What this program is:
 
-Not only I lerned alot about this framework, but also learned in a pratical way machine lerning. This projects standout by the code being writeen in a way that is easy to understand. And also creates a model that is easy and intuitive  to use. 
+What this program does:
 
+-----
+
+index:
+
+
+-----
+
+
+
+The motivation behind this project was to help a family member. Who wanted to merge multple files from ____ holdings to gain a better insight of what ark invests has its money in. Another motivation for this was to get a better understanding of python and its build in modules. Image of one of the files
+
+Basicaaly, all csv files wanted to merge are placed on a paste, then you click on the program exe file to run the program. Eventually another folder appears to remove the file merged. This new file containes all companies market value and shares merged. ADD HERE IMAGE.  And then the user needs to delete all folders. The program was build in this way to be as simple as possible. I though of doing a GUI, where the user would drag and drop the files and essencially would nicely convert the files. But duo to a lack of time, interest and a fear of my family member not using it well. I decided not to use it. 
+
+With this project I seriously improved my programming skills. One thing is coding, other is writing actually software. If coding is writing a page, I leaned the basics of writing a book. 
+i learned how to do tests with the unittesting module. I gain a better understanding of pandas and numpy. ADD LINKS TO MODULES DOCSLearned more about writing clean code from THIS FILE. - https://github.com/julkwel/clean-code - 
+Other modules include: ADD LINKS TO DOCS
+os
+shutil
+datetime
+
+how this project stands out?
+
+
+-----
 
 Install dependencies:
 
@@ -34,7 +57,7 @@ activate
 Install necessary modules and activate it
 
 ```
-pip install tensorflow==2.4.1 matplotlib==3.3 keras==2.4 ipykernel
+pip install numpy pandas
 
 ```
 
@@ -43,6 +66,8 @@ pip install tensorflow==2.4.1 matplotlib==3.3 keras==2.4 ipykernel
 Started on 27/08/2021
 
 Ended 07/09/2021
+
+-----
 
 to add:
 
@@ -55,10 +80,9 @@ https://www.wordtune.com/
 
 change name of program
 section:
-modules used
-create a licence for my program
 explain file tree  and a diagram with the program process
-click here to install
+click here to install the actual program
 click here to downloas source
 
 talk about ark invest
+criar indice com tudo e descrição muito breve.
