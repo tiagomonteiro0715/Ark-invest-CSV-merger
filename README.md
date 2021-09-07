@@ -11,6 +11,9 @@ What this program is:
 
 What this program does:
 
+
+![Diagram explaning my program](https://github.com/tiagomonteiro0715/Ark-invest-CSV-merger/blob/main/diagram-explaining-program.png)
+
 -----
 
 index:
