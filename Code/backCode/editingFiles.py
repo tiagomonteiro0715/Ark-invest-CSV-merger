@@ -1,10 +1,8 @@
-from Code.backCode.preFiltering import *
+from preFiltering import *
 import pandas as pd
-from datetime import datetime
 import numpy as np
 import glob
-import os, random
-
+import os
 
 filesRenamed_path = topPath + "\\" + "files" + "\\" + "filesRenamed"
 filesFinal_path = topPath + "\\" + "files" + "\\" + "filesFinal"
@@ -20,25 +18,6 @@ def delColumns(dataFrame):
     del dataFrame["ticker"]
     del dataFrame["cusip"]
     del dataFrame["weight(%)"]
-
-def getDate():
-    filesRenamed_path = topPath + "\\" + "files" + "\\" + "filesRenamed"
-
-    
-    filetogetDate = random.choice(glob.glob(filesRenamed_path + '/*.csv'))  
-    print("No files and on filesRenamed directory")
-    
-    datedf = pd.read_csv(filetogetDate)
-    datefromFile = datedf.iloc[5]["date"]
-
-    date_list = list(datefromFile)
-    date_list = ["-" if value=="/" else value for value in date_list] 
-    unsortedDate = "".join(map(str,date_list))#8-27-2021
-
-    datetimeobject = datetime.strptime(unsortedDate,'%m-%d-%Y')
-    title_date = datetimeobject.strftime('%d-%m-%Y') # date I will use as a name for csv file
-
-    return title_date
 
 def joinCSVs():
     global finalfile_name
@@ -59,7 +38,7 @@ def joinCSVs():
     df.drop(df.tail(3).index,inplace=True) # drop last 4 rows
     df.dropna(axis=0, how='all', thresh=None, subset=None, inplace=True)
 
-    finalfile_name = "Análise-ark-invest_" + getDate() + ".csv"
+    finalfile_name = "Análise-ark-invest.csv"
     finalfile_path = os.path.join(filesFinal_path, finalfile_name)
 
 #turn this in an actual CSV file
@@ -105,10 +84,8 @@ def editCSV():
     df.to_csv(finalfile_path, index= False)
 
     sortByMarketVal(df)
-
-def editFile():
+  
+    
+if __name__ == "__main__":
     joinCSVs()
     editCSV()
-
-if __name__ == "__main__":
-    editFile()

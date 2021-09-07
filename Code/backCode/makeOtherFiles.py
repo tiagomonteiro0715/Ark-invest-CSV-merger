@@ -1,13 +1,15 @@
-from Code.backCode.preFiltering import *
-from Code.backCode.editingFiles import *
+from preFiltering import *
+from editingFiles import *
 import pandas as pd
 import os
+import shutil
+finalfile_name = "Análise-ark-invest.csv"
+filesRenamed_path = topPath + "\\" + "files" + "\\" + "filesRenamed"
+filesFinal_path = topPath + "\\" + "files" + "\\" + "filesFinal"
 
-finalfile_name = "Análise-ark-invest_" + getDate() + ".csv"
-filesfinalDirectory_path = topPath + "\\" + "files" + "\\" + "filesFinal"
+
 finalfile_path = os.path.join(filesFinal_path, finalfile_name)
 
-df = pd.read_csv(finalfile_path)
 pd.set_option('display.max_columns', None)  # or 1000
 pd.set_option('display.max_rows', None)  # or 1000
 pd.set_option('display.max_colwidth', None)  # or 199
@@ -29,30 +31,25 @@ def intColumnValuesRedable(dataframe, columnName):
     dataframe.to_csv(finalfile_path, index= False)
 
 def finalCSVedits():
+    df = pd.read_csv(finalfile_path)
+
     intColumnValuesRedable(df, "Market-value($)")
     intColumnValuesRedable(df, "Shares")
 
     del df["Index"]
     df.to_csv(finalfile_path, index= False)
-
+    os.remove(finalfile_path)
+    
 def removeDirectory(path):
-    os.rmdir(path)
+    shutil.rmtree(path)
 
 def convertExcel():
     global finalexcelfile_path
     try:
         df = pd.read_csv(finalfile_path)
-        finalexcelfile_path = os.path.join(filesfinalDirectory_path, "Análise-ark-invest_" + getDate() + ".xlsx")
+        finalexcelfile_path = os.path.join(filesFinal_path, "Análise-ark-invest.xlsx")
         df.to_excel(finalexcelfile_path)
-        os.remove(finalfile_path)
     except:
         print("Warning - Either the file has already been coverted or it has not been created")
-    
-    
-def finalFunction():
-    finalCSVedits()
-    convertExcel()
-    removeDirectory(filesRenamed_path)
 
-if __name__ == "__main__":
-    finalFunction()
+    removeDirectory(filesRenamed_path)

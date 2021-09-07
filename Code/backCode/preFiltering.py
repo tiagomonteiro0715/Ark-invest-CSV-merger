@@ -15,22 +15,25 @@ listnumFiles = list(map(str, lenFiles))
 filesName = ["file"] * numofFiles
 filesName = list(map(lambda x, y:x + y, filesName, listnumFiles))
 
+def createDirectory(pathToDirectory, directoryName):
+    try:
+        finalPath = os.path.join(pathToDirectory, directoryName)
+        os.mkdir(finalPath)
+    except:
+        if os.path.isdir(finalPath) == True:
+            print("Directories already exists")
+            
+    return finalPath
+
 
 def getFiles():
     global filesRenamed_name
     global filesRenamed_path
     global numofFile
-
-
-#create directory with new directory for new files
-
-    try:
-        filesRenamed_name = "filesRenamed"
-        filesRenamed_path = os.path.join(topPath + "\\" + "files", filesRenamed_name)
-        os.mkdir(filesRenamed_path)
-    except:
-        if os.path.isdir(filesRenamed_name) == True:
-            print("Directory already exists")
+    
+    #create directory with new directory for new files
+    createDirectory(topPath + "\\" + "files", 'filesRenamed')
+    createDirectory(topPath + "\\" + "files", 'filesFinal')
 
     numofFile = 1
     files = os.listdir(filesPath)
@@ -40,12 +43,13 @@ def getFiles():
         #delete "files directory"
 
         try:
-            shutil.move(os.path.join(filesPath, filesPath+str(numofFile)+'.csv'), filesRenamed_path)
+            shutil.move(os.path.join(filesPath, filesPath+str(numofFile)+'.csv'), topPath + "\\" + "files" + "\\" +  "filesRenamed")
         except:
-            if os.path.isdir(filesRenamed_name) == True:
+            if os.path.isdir('filesRenamed') and  os.path.isdir('filesFinal') == True:
                 print("Directory already exists")
 
         numofFile = numofFile +1
+
 
 if __name__ == "__main__":
     getFiles()
