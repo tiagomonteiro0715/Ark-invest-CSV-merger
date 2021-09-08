@@ -1,8 +1,9 @@
-from preFiltering import *
-from editingFiles import *
 import pandas as pd
 import os
 import shutil
+
+topPath = os.getcwd()
+
 finalfile_name = "Análise-ark-invest.csv"
 filesRenamed_path = topPath + "\\" + "files" + "\\" + "filesRenamed"
 filesFinal_path = topPath + "\\" + "files" + "\\" + "filesFinal"
@@ -38,7 +39,6 @@ def finalCSVedits():
 
     del df["Index"]
     df.to_csv(finalfile_path, index= False)
-    os.remove(finalfile_path)
     
 def removeDirectory(path):
     shutil.rmtree(path)
@@ -53,3 +53,4 @@ def convertExcel():
         print("Warning - Either the file has already been coverted or it has not been created")
 
     removeDirectory(filesRenamed_path)
+    os.remove(finalfile_path)

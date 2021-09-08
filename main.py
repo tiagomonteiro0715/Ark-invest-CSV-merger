@@ -1,20 +1,12 @@
-from Code.backCode.preFiltering import *
 from Code.backCode.editingFiles import *
+from Code.backCode.preFiltering import *
 from Code.backCode.makeOtherFiles import *
 import time
-import os.path
 
-def createFilesDirectory(directoryName):
-    if not os.path.exists(topPath + "\\" + "files"):
-        os.makedirs(topPath + "\\" + "files")
 
-    os.makedirs(filesPath)
-    time.sleep(2000)
-        
-else:
-    pass
 
 def main():
+    
     getFiles()
     time.sleep(1)
     joinCSVs()
@@ -29,3 +21,29 @@ def main():
 
 if __name__ == "__main__":
     main() 
+
+
+
+
+"""
+def createFilesDirectory():
+    if not os.path.exists(topPath + "\\" + "files"):
+        os.makedirs(topPath + "\\" + "files")
+        os.makedirs(topPath + "\\" + "files" + "\\" + "filesUnsorted")
+        time.sleep(2000)
+    else:
+        pass
+    
+    if os.path.exists(topPath + "\\" + "files"):
+        try:
+            removeDirectory(finalfile_path)
+        except:
+            print("No finalFiles folder exists")   
+            
+             
+        if not os.path.exists(topPath + "\\" + "files" + "\\" + "filesUnsorted"):
+            os.makedirs(topPath + "\\" + "files" + "\\" + "filesUnsorted")
+            time.sleep(2000)
+        else:
+            pass
+"""

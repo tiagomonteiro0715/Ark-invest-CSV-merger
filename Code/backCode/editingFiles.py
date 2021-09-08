@@ -1,8 +1,9 @@
-from preFiltering import *
 import pandas as pd
 import numpy as np
 import glob
 import os
+
+topPath = os.getcwd()
 
 filesRenamed_path = topPath + "\\" + "files" + "\\" + "filesRenamed"
 filesFinal_path = topPath + "\\" + "files" + "\\" + "filesFinal"
