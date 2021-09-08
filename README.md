@@ -72,38 +72,33 @@ Ended 07/09/2021
 
 -----
 
-to add:
 
+-----
+
+docs to do:
+
+I wished I had made a good installer and fixed some possible bugs
+say that didnt have the patiente to complete the rest of the tests
+talk about ark invest
+criar indice com tudo e descrição muito breve.
+a very briefe description of my licence and show site with other licenes easily explained
+explain file tree  and a diagram with the program process - excel - each block - a file in the program
+click here to install the actual program
+click here to downloas source
 i planed to use kivy, but I was bored and the program was going to be transmitted through a pen drive
-it might be bad because I did it in a way to be as simple as possible and because I was 18. still I made tests with the unitesting modules.
-
+it might be bad because I did it in a way to be as simple as possible and because I was 18. 
 I declared variables that choode not had been repeated
 if you can help me get a better one, send me a message in github :)
 https://www.wordtune.com/
-
 create diagram with files path and what each file does. talking about the boring unittests. get where one to prove i actually used it. say I only started using at the end. A big mistake. each file - create a block
 
-section:
-explain file tree  and a diagram with the program process
-click here to install the actual program
-click here to downloas source
+-----
 
-write short blocks of text
-make video showing the program for the zero. from the instalattion to the file creation and folder removal
-
-talk about ark invest
-criar indice com tudo e descrição muito breve.
-
-a very briefe description of my licence and show site with other licenes easily explained
-
-make it install it from google drive - place to store it - already a program - make a video using it
-https://stackoverflow.com/questions/48597673/downloading-zip-folder-file-from-google-drive-from-shared-with-me-folder#49514364
+to do outside:
 
 make file a executable
-
 finish docs with video and add this program to my site
-
-I wished I had made a good installer and fixed some possible bugs
-
-say that didnt have the patiente to complete the rest of the tests
-
+make it install it from google drive - place to store it - already a program - make a video using it
+https://stackoverflow.com/questions/48597673/downloading-zip-folder-file-from-google-drive-from-shared-with-me-folder#49514364
+write short blocks of text
+make video showing the program for the zero. from the instalattion to the file creation and folder removal
