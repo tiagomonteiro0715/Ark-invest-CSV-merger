@@ -83,7 +83,6 @@ https://www.wordtune.com/
 
 create diagram with files path and what each file does. talking about the boring unittests. get where one to prove i actually used it. say I only started using at the end. A big mistake. each file - create a block
 
-change name of program
 section:
 explain file tree  and a diagram with the program process
 click here to install the actual program
@@ -96,3 +95,12 @@ talk about ark invest
 criar indice com tudo e descrição muito breve.
 
 a very briefe description of my licence and show site with other licenes easily explained
+
+make it install it from google drive - place to store it - already a program - make a video using it
+
+finish docs with video and add this program to my site
+
+I wished I had made a good installer and fixed some possible bugs
+
+say that didnt have the patiente to complete the rest of the tests
+
