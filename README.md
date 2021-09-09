@@ -40,6 +40,8 @@ The motivation behind this project was to help a family member. Who wanted to me
 
 ###How this program works
 
+![finances image](https://github.com/tiagomonteiro0715/Ark-invest-CSV-merger/blob/main/program%20diagram.png)
+
 Basicaaly, all csv files wanted to merge are placed on a paste, then you click on the program exe file to run the program. Eventually another folder appears to remove the file merged. This new file containes all companies market value and shares merged. ADD HERE IMAGE.  And then the user needs to delete all folders. The program was build in this way to be as simple as possible. 
 
 ###My mistakes while completing it and ideas when strating its creation
