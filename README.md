@@ -40,7 +40,7 @@ It only mergers funds holdings csv files from the investement management firm [a
 
 -----
 
-### [What is ark invest?](<https://github.com/tiagomonteiro0715/Ark-invest-CSV-merger/blob/main/README.md#what-is-ark-invest>)
+### What is ark invest?
 
 [Ark invest](https://ark-invest.com/) is an investment fund that focuses on disrupting technologies. A few examples include artificial intelligence, DNA sequence, robotics, and 3D printing
 
