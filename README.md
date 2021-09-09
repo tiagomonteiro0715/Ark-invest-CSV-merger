@@ -1,6 +1,6 @@
 # Ark-invest-CSV-merger
 
-warning: On 05/09/2021, program will be ready for anyone to use
+## note: On 05/09/2021, program will be ready for anyone to use
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
@@ -9,28 +9,32 @@ warning: On 05/09/2021, program will be ready for anyone to use
 
 -----
 
-index:
+# Index
 
-## [What this program is about?](<https://github.com/tiagomonteiro0715/Ark-invest-CSV-merger/blob/main/README.md#what-this-program-is-about>)
+* ### [What this program is about?](<https://github.com/tiagomonteiro0715/Ark-invest-CSV-merger/blob/main/README.md#what-this-program-is-about>)
 
-## What is ark invest?
-
-My motivation for the creation of this software
+What is ark invest?
 
 How this program works?
 
+My motivation for the creation of this software
+
 Final notes
 
-To install:
+Install:
 
-Install program files:
-Install source code
-Install dependencies:
+* Program
+
+* Source code and dependecies
+
+-----
+
+
 -----
 
 ### [What this program is about?](<https://github.com/tiagomonteiro0715/Ark-invest-CSV-merger/blob/main/README.md#what-this-program-is-about>) 
 
-CSV file merger. 
+CSV([Comma-separated values](https://en.wikipedia.org/wiki/Comma-separated_values#Example)) file merger. 
 
 ![Diagram explaning my program](https://github.com/tiagomonteiro0715/Ark-invest-CSV-merger/blob/main/diagram-explaining-program.png)
 
@@ -46,15 +50,17 @@ ARK Invest manages many exchange-traded funds, such as: Autonomous Technology & 
 
 -----
 
-### My motivation for the creation of this software
-
-The motivation behind this project was to help a family member. Who wanted to merge multple files from ____ holdings to gain a better insight of what ark invests has its money in. Another motivation for this was to get a better understanding of python and its build in modules. Image of one of the files
-
 ### How this program works?
 
 ![finances image](https://github.com/tiagomonteiro0715/Ark-invest-CSV-merger/blob/main/program%20diagram.png)
 
 Basicaaly, all csv files wanted to merge are placed on a paste, then you click on the program exe file to run the program. Eventually another folder appears to remove the file merged. This new file containes all companies market value and shares merged. ADD HERE IMAGE.  And then the user needs to delete all folders. The program was build in this way to be as simple as possible. 
+
+
+### My motivation for the creation of this software
+
+The motivation behind this project was to help a family member. Who wanted to merge multple files from ____ holdings to gain a better insight of what ark invests has its money in. Another motivation for this was to get a better understanding of python and its build in modules. Image of one of the files
+
 
 ### My mistakes while completing it and ideas when strating its creation
 I though of doing a GUI with the kivy module, where the user would drag and drop the files and essencially would nicely convert the files. But duo to a lack of time, interest and a fear of my family member not using it well. I decided not to use it. During the completion of this project I made two serious mistakes: Did not use tests while writing the code and declared variables that should only be repeated once. I wished I had made a good installer and fixed some possible bugs that could apper ond´ce a user uses the program. For example, how would the program handles files that are not in .csv type? What would it do if the .csv files didn´t have the right collumns for the program to work. at the moment, the program just  crashes.
@@ -125,3 +131,9 @@ https://www.wordtune.com/
 write short blocks of text
 
 <a name="What this program is about?"/>
+<a name="What this program is about?"/>
+<a name="What this program is about?"/>
+<a name="What this program is about?"/>
+<a name="What this program is about?"/>
+<a name="What this program is about?"/>
+
