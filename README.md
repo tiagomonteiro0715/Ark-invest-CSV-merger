@@ -16,7 +16,7 @@
 
 * ### [What is ark invest?](<https://github.com/tiagomonteiro0715/Ark-invest-CSV-merger/blob/main/README.md#what-is-ark-invest-1>)
 
-* ### [How this program works?](<https://github.com/tiagomonteiro0715/Ark-invest-CSV-merger/blob/main/README.md#how-this-program -orks-1>)
+* ### [How this program works?](<https://github.com/tiagomonteiro0715/Ark-invest-CSV-merger/blob/main/README.md#how-this-program-works-1>)
 
 ### The developement:
 
@@ -56,21 +56,48 @@ ARK Invest manages many exchange-traded funds, such as:
 
 -----
 
+### How to use it?
+the csv can be found here. - put link here
+take screenshot of it
+
+make video of me using it
+
+
+To increase as much as possible the simplicity of the program and due to boredom of learning the python kivy module, I decided not to create a GUI for this program.
+
+
 ### How this program works?
 
 ![finances image](https://github.com/tiagomonteiro0715/Ark-invest-CSV-merger/blob/main/program%20diagram.png)
 
-### My motivation for the creation of this software
+### My motivation
 
-The motivation behind this project was to help a family member. Who wanted to merge multple files from ____ holdings to gain a better insight of what ark invests has its money in. Another motivation for this was to get a better understanding of python and its build in modules. Image of one of the files
-
-
-### My mistakes while completing it and ideas when strating its creation
-I though of doing a GUI with the kivy module, where the user would drag and drop the files and essencially would nicely convert the files. But duo to a lack of time, interest and a fear of my family member not using it well. I decided not to use it. During the completion of this project I made two serious mistakes: Did not use tests while writing the code and declared variables that should only be repeated once. I wished I had made a good installer and fixed some possible bugs that could apper ond´ce a user uses the program. For example, how would the program handles files that are not in .csv type? What would it do if the .csv files didn´t have the right collumns for the program to work. at the moment, the program just  crashes.
+The purpose of the program was to improve my programming skills and also to help out  a relative who wanted to combine multiple csv files in order to gain a deeper understanding of what ark invests in. 
 
 
-### How the creation of this program improved me?
-With this project I seriously improved my programming skills. One thing is coding, other is writing actually software. If coding is writing a page, I leaned the basics of writing a book. i learned how to do tests with the unittesting module. I gain a better understanding of pandas and numpy. ADD LINKS TO MODULES DOCSLearned more about writing clean code from THIS FILE. - https://github.com/julkwel/clean-code - 
+### My main mistake(s) and what can still be improved
+
+Until now, my main mistake where: 
+1. Not use unittests while writing the functions 
+2. Declared variables that should only be repeated once.
+
+Create a good installer to automatically install files
+
+Stop being depedent on the pandas and numpy modules
+
+Fix possible bugs. For example, how would the program handles files that are not in .csv type? What would it do if the .csv files didn´t have the right collumns for the program to work. at the moment, the program just crashes.
+
+Create text to assure the user that the program is running. add animations to the command line of the program
+
+Do a video explining how the program works. From download to download of csv files and others
+
+### What I learned
+
+With this project I seriously improved my programming skills. One thing is coding, other is writing actually software. If coding is writing a page, I leaned the basics of writing a book. i learned how to do tests with the unittesting module.
+
+I also learned how to use the unittesting modulo. But I only started using it at the end. Due to boredom, I did not fully testes my code.
+
+I gain a better understanding of pandas and numpy. ADD LINKS TO MODULES DOCSLearned more about writing clean code from THIS FILE. - https://github.com/julkwel/clean-code - 
 Other modules include: ADD LINKS TO DOCS
 os
 shutil
@@ -78,7 +105,7 @@ datetime
 
 ### How this project stands out?
 
-This programming projects stands out by being just very simple to use. This way, people that lack the besic knowledje of computers can use it easily.
+This programming projects stands out by being just very simple to use. This way, people that lack the besic knowledje of computers can use it easily. This project can become independent of numpy and pandas
 
 ### Final notes
 
@@ -91,9 +118,7 @@ This  might be bad because I did it in a way to be as simple as possible to use 
 
 ### Install program files:
 
-### Install source code
-
-## Install dependencies:
+### Install source code and dependencies:
 
 ```
 pip install --upgrade --user pip
