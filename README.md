@@ -1,13 +1,14 @@
 # Ark-invest-CSV-merger
 
+-----
+
 ## note: On 05/09/2021, program will be ready for anyone to use
+
+-----
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 ![finances image](https://github.com/tiagomonteiro0715/Ark-invest-CSV-merger/blob/main/docs-image.png)
-
-
------
 
 # Index
 
@@ -29,9 +30,6 @@ Install:
 
 -----
 
-
------
-
 ### What this program is about?
 
 CSV([Comma-separated values](https://en.wikipedia.org/wiki/Comma-separated_values#Example)) file merger. 
@@ -44,12 +42,13 @@ It only mergers funds holdings csv files from the investement management firm [a
 
 ### [What is ark invest?](<https://github.com/tiagomonteiro0715/Ark-invest-CSV-merger/blob/main/README.md#what-is-ark-invest>)
 
-[Ark invest](https://ark-invest.com/) is a investement fund that has a focus on investing is disruptive technologies(Artificial intelligence, DNA sequence, robotics, 3d printing ...)
+[Ark invest](https://ark-invest.com/) is an investment fund that focuses on disrupting technologies. A few examples include artificial intelligence, DNA sequence, robotics, and 3D printing
+
 
 ARK Invest manages many exchange-traded funds, such as: 
-1. Autonomous Technology & Robotics(ADD LINK TO SITE)
-2. Genomic Revolution ETF(ADD LINK TO SITE)
-3. Israel Innovative Technology ETF(ADD LINK TO SITE)
+1. [Autonomous Technology & Robotics](https://ark-invest.com/strategy/autonomous-tech-robotics/)
+3. [Genomic Revolution](https://ark-invest.com/strategy/genomic-revolution/)
+4. [Israel Innovative Technology](https://ark-invest.com/strategy/israel-innovation/)
 
 [Click here to check out more funds](https://ark-funds.com/)
 
