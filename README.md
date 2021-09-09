@@ -105,9 +105,10 @@ Ended 07/09/2021
 to do outside:
 
 make file a executable
-make it install it from google drive - place to store it - already a program - make a video using it
+
+make it install it from google drive - place to store it
+
 https://stackoverflow.com/questions/48597673/downloading-zip-folder-file-from-google-drive-from-shared-with-me-folder#49514364
-make video showing the program for the zero. from the instalattion to the file creation and folder removal
 
 -----
 
