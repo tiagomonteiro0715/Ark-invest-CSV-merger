@@ -26,7 +26,6 @@ To install:
 Install program files:
 Install source code
 Install dependencies:
-
 -----
 
 ## What this program is about?
@@ -39,9 +38,7 @@ It only mergers funds holdings csv files from the investement management firm [a
 
 -----
 
-<project URL#<header name>
-  
-### What is ark invest?
+[### What is ark invest?](<https://github.com/tiagomonteiro0715/Ark-invest-CSV-merger/blob/main/README.md#what-this-program-is-about>)
 
 Ark invest(ADD LINK TO SITE) is a investement fund that has a focus on investing is disruptive technologies(Artificial intelligence, DNA sequence, robotics, 3d printing ...)
 
