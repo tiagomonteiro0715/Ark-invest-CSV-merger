@@ -16,7 +16,8 @@
 
 * ### [What is ark invest?](<https://github.com/tiagomonteiro0715/Ark-invest-CSV-merger/blob/main/README.md#what-is-ark-invest-1>)
 
-How this program works?
+* ### [How this program works?](<https://github.com/tiagomonteiro0715/Ark-invest-CSV-merger/blob/main/README.md#how-this-program -orks-1>)
+
 
 My motivation for the creation of this software
 
@@ -136,7 +137,7 @@ write short blocks of text
 
 <a name="What this program is about?"/>
 <a name="What is ark invest?"/>
-<a name="What this program is about?"/>
+<a name="How this program works?"/>
 <a name="What this program is about?"/>
 <a name="What this program is about?"/>
 <a name="What this program is about?"/>
