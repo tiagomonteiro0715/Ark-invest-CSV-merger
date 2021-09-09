@@ -44,9 +44,14 @@ It only mergers funds holdings csv files from the investement management firm [a
 
 ### [What is ark invest?](<https://github.com/tiagomonteiro0715/Ark-invest-CSV-merger/blob/main/README.md#what-is-ark-invest>)
 
-Ark invest(ADD LINK TO SITE) is a investement fund that has a focus on investing is disruptive technologies(Artificial intelligence, DNA sequence, robotics, 3d printing ...)
+[Ark invest](https://ark-invest.com/) is a investement fund that has a focus on investing is disruptive technologies(Artificial intelligence, DNA sequence, robotics, 3d printing ...)
 
-ARK Invest manages many exchange-traded funds, such as: Autonomous Technology & Robotics ETF(ADD LINK TO SITE) , Genomic Revolution ETF(ADD LINK TO SITE) , Israel Innovative Technology ETF(ADD LINK TO SITE),  ...
+ARK Invest manages many exchange-traded funds, such as: 
+1. Autonomous Technology & Robotics(ADD LINK TO SITE)
+2. Genomic Revolution ETF(ADD LINK TO SITE)
+3. Israel Innovative Technology ETF(ADD LINK TO SITE)
+
+[Click here to check out more funds](https://ark-funds.com/)
 
 -----
 
