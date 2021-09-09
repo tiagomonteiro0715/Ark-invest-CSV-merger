@@ -42,7 +42,7 @@ It only mergers funds holdings csv files from the investement management firm [a
 
 -----
 
-### [What is ark invest?](<https://github.com/tiagomonteiro0715/Ark-invest-CSV-merger/blob/main/README.md#what-this-program-is-about>)
+### [What is ark invest?](<https://github.com/tiagomonteiro0715/Ark-invest-CSV-merger/blob/main/README.md#what-is-ark-invest>)
 
 Ark invest(ADD LINK TO SITE) is a investement fund that has a focus on investing is disruptive technologies(Artificial intelligence, DNA sequence, robotics, 3d printing ...)
 
@@ -131,7 +131,7 @@ https://www.wordtune.com/
 write short blocks of text
 
 <a name="What this program is about?"/>
-<a name="What this program is about?"/>
+<a name="What is ark invest?"/>
 <a name="What this program is about?"/>
 <a name="What this program is about?"/>
 <a name="What this program is about?"/>
