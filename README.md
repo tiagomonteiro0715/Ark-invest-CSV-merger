@@ -117,3 +117,5 @@ criar indice com tudo e descrição muito breve.
 https://www.wordtune.com/ + write short blocks of text
 finish docs with video and add this program to my site
 
+
+https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
