@@ -14,7 +14,7 @@
 
 * ### [What this program is about?](<https://github.com/tiagomonteiro0715/Ark-invest-CSV-merger/blob/main/README.md#what-this-program-is-about>)
 
-What is ark invest?
+* ### [What is ark invest?](<https://github.com/tiagomonteiro0715/Ark-invest-CSV-merger/blob/main/README.md#what-is-ark-invest>)
 
 How this program works?
 
