@@ -100,25 +100,15 @@ Started on 27/08/2021
 
 Implementation ended 07/09/2021
 
-From 07/09, only maintenance was done
-
------
-
-to do outside:
-
-make file a executable
-
-make it install it from google drive - place to store it
-
-https://stackoverflow.com/questions/48597673/downloading-zip-folder-file-from-google-drive-from-shared-with-me-folder#49514364
+From 07/09, only maintenance is being realized
 
 -----
 
 at the end:
 
 criar indice com tudo e descrição muito breve.
-https://www.wordtune.com/ + write short blocks of text
-finish docs with video and add this program to my site
+https://www.wordtune.com/
+write short blocks of text
 
 
 https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
