@@ -9,6 +9,26 @@ warning: On 05/09/2021, program will be ready for anyone to use
 
 -----
 
+index:
+
+[What this program is about](https://github.com/tiagomonteiro0715/Ark-invest-CSV-merger/edit/main/README.md#What-this-program-is-about)
+
+What is ark invest?
+
+My motivation for the creation of this software
+
+How this program works?
+
+Final notes
+
+To install:
+
+Install program files:
+Install source code
+Install dependencies:
+
+-----
+
 ## What this program is about?
 
 CSV file merger. 
@@ -19,10 +39,6 @@ It only mergers funds holdings csv files from the investement management firm [a
 
 -----
 
-index:
-
-
------
 
 ### What is ark invest?
 
@@ -109,6 +125,3 @@ at the end:
 criar indice com tudo e descrição muito breve.
 https://www.wordtune.com/
 write short blocks of text
-
-
-https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
