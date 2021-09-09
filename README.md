@@ -1,6 +1,8 @@
 # Ark-invest-CSV-merger
 
- [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+warning: On 05/09/2021, program will be ready for anyone to use
+
+[![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 ![finances image](https://github.com/tiagomonteiro0715/Ark-invest-CSV-merger/blob/main/docs-image.png)
 
@@ -96,9 +98,9 @@ pip install numpy pandas
 
 Started on 27/08/2021
 
-Ended 07/09/2021
+Implementation ended 07/09/2021
 
------
+From 07/09, only maintenance was done
 
 -----
 
