@@ -32,7 +32,7 @@ Install:
 
 -----
 
-### [What this program is about?](<https://github.com/tiagomonteiro0715/Ark-invest-CSV-merger/blob/main/README.md#what-this-program-is-about>) 
+### What this program is about?
 
 CSV([Comma-separated values](https://en.wikipedia.org/wiki/Comma-separated_values#Example)) file merger. 
 
