@@ -91,6 +91,8 @@ Create text to assure the user that the program is running. add animations to th
 
 Do a video explining how the program works. From download to download of csv files and others
 
+I was 18 and did not know the structure of the program or code. remember I was not at university when I made this project.
+
 ### What I learned
 
 With this project I seriously improved my programming skills. One thing is coding, other is writing actually software. If coding is writing a page, I leaned the basics of writing a book. i learned how to do tests with the unittesting module.
