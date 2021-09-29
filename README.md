@@ -2,7 +2,7 @@
 
 -----
 
-## note: On 05/09/2021, program will be ready for anyone to use
+## note: programs and documentation are unfinished
 
 -----
 
